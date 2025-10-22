@@ -30,9 +30,6 @@ jobs:
       - name: Iniciar o servidor de aplicacao
         run: npm run server &
 
-      - name: Iniciar o servidor de aplicacao
-        run: npm run server
-
       - name: Executar os testes
         run: npx cypress run
       
